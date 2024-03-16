@@ -35,7 +35,7 @@ const Header: React.FC<HeaderProps> = ({ showBackArrow, label, isExplore }) => {
           {label}
         </h1>
       </div>
-      {/* <ModeButton /> */}
+      <ModeButton />
     </div>
   );
 }
